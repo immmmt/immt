@@ -1,0 +1,9 @@
+# 由输入获得 10 个整数并从小到大排序
+lst = []
+for i in range(10):
+    num = int(input())
+    lst.append(num)
+print('输入的10个数字是：', lst)
+
+print('数字从大到小排列：', sorted(lst))
+  
